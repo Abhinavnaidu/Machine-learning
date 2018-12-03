@@ -41,10 +41,4 @@ plt.xlabel('years of experience')
 plt.ylabel('salary')
 plt.show
 
-#visualizing the test set result
-plt.scatter(X_test,y_test,color='red')
-plt.plot(X_train,regressor.predict(X_train),color='green') 
-plt.title('salary vs experience(test set)')
-plt.xlabel('years of experience')
-plt.ylabel('salary')
-plt.show
+
